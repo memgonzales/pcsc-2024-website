@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>24th Philippine Computing Science Congress</title>
+
+        <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+        <link
+            rel="icon"
+            type="image/png"
+            href="assets/favicon/android-chrome-192x192.png"
+            sizes="192x192"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            href="assets/favicon/android-chrome-512x512.png"
+            sizes="512x512"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/favicon/apple-touch-icon.png"
+        />
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v6.3.0/css/all.css"
+        />
+        <link rel="stylesheet" href="style/colors.css" />
+        <link rel="stylesheet" href="style/style.css" />
+    </head>
+
+    <body>
+        <div class="container-fluid p-0 m-0" id="parent-container">
+            <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+                <div class="container-fluid ps-lg-3 ps-5 ms-lg-3">
+                    <a class="navbar-brand ms-lg-5 ps-lg-1 me-4" href="/"
+                        >PCSC 2024</a
+                    >
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbar-toggler-menu"
+                        aria-controls="navbar-toggler-menu"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbar-toggler-menu"
+                    >
+                        <ul
+                            class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-5 ps-lg-1 ps-xl-0 ms-xl-3"
+                        >
+                            <li class="nav-item pe-3">
+                                <a class="nav-link" aria-current="page" href="/"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item dropdown pe-3">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdownMenuLink"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                    >Information</a
+                                >
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdownMenuLink"
+                                >
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Plenary Speakers</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Program</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Invitation</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Publication</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >Conference Committee</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#"
+                                            >CHED Memo</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item pe-3">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="srw.html"
+                                    >Student Research Workshop</a
+                                >
+                            </li>
+                            <li class="nav-item pe-3">
+                                <a class="nav-link" aria-current="page" href="#"
+                                    >Accepted Papers & Posters</a
+                                >
+                            </li>
+                            <li class="nav-item pe-3">
+                                <a class="nav-link" aria-current="page" href="#"
+                                    >Registration</a
+                                >
+                            </li>
+                            <li class="nav-item dropdown pe-3">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdownMenuLink"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                    >Author Guidelines</a
+                                >
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdownMenuLink"
+                                >
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="author-guidelines/paper-templates.html"
+                                            >Paper Templates</a
+                                        >
+                                        <a class="dropdown-item" href="#"
+                                            >Poster Guidelines</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item pe-3">
+                                <a class="nav-link" aria-current="page" href="#"
+                                    >Proceedings</a
+                                >
+                            </li>
+                            <li class="nav-item pe-3">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="contact-us.html"
+                                    >Contact Us</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-fluid p-0 mt-lg-0 mt-5">
+                <img src="assets/banner.jpg" style="width: 100%" />
+            </div>
+
+            <div class="container-fluid p-5">
+                <div class="row">
+                    <div class="col-sm-9 ps-lg-5 pb-4 pe-lg-5">
+                        <h3 class="impt pb-3">Student Research Workshop</h3>
+                        <p>
+                            The PCSC 2024 Student Research Workshop (SRW)
+                            invites students at various stages of their research
+                            to present their work and receive mentorship and
+                            feedback from the research community. This is also
+                            an opportunity to present exciting contributions
+                            that showcase innovative technologies and detail
+                            preliminary experiments that foster discussions to
+                            provoke new ideas to emerge.
+                        </p>
+
+                        <br />
+
+                        <h3 class="impt pb-3">Paper Submission</h3>
+                        <p>We welcome papers in two different categories:</p>
+                        <ul>
+                            <li class="mb-3">
+                                <b>Thesis Proposals.</b> This category is
+                                appropriate for students who have already
+                                decided on a thesis topic and wish to receive
+                                feedback on their proposal and broader ideas for
+                                their ongoing work.
+                            </li>
+                            <li>
+                                <b>Research Papers.</b> This category accepts
+                                work-in-progress, experiments with preliminary
+                                results, and late-breaking work. We encourage
+                                submissions describing experiments with positive
+                                and negative results that can provide relevant
+                                insights to the computing community. The first
+                                author must be a current student.
+                            </li>
+                        </ul>
+
+                        <p>
+                            Submissions in both categories may be archival or
+                            non-archival, based on the decision of the authors.
+                            All archival papers will be published in the PCSC
+                            2024 SRW proceedings. Extended versions of archival
+                            papers and non-archival papers may be submitted to
+                            any venue in the future.
+                        </p>
+
+                        <p>
+                            Papers should be up to 4 pages in content with an
+                            unlimited number of pages for references and
+                            supplementary materials. Submissions need not be
+                            anonymized and must follow the
+                            <a
+                                href="author-guidelines/paper-templates.html"
+                                class="link-success"
+                                >PCSC 2024 template</a
+                            >
+                            used in the main conference.
+                        </p>
+
+                        <p>
+                            Please submit your paper via this portal:
+                            <a
+                                href="https://cmt3.research.microsoft.com/PCSC2024"
+                                class="link-success"
+                                >https://cmt3.research.microsoft.com/PCSC2024</a
+                            >, and choose "Student Research Workshop" as the
+                            type of submission.
+                        </p>
+
+                        <br />
+
+                        <h3 class="impt pb-3">Paper Review</h3>
+                        <p>
+                            Papers submitted to SRW will be reviewed through a
+                            <a
+                                href="https://www.acm.org/publications/policies/pre-publication-evaluation"
+                                class="link-success"
+                                target="_blank"
+                                >Reviewed</a
+                            >
+                            process as defined by ACM, and will receive
+                            <b>light feedback</b> from reviewers. Evaluation
+                            criteria would be as follows:
+                        </p>
+                        <ul>
+                            <li>
+                                <b>Contribution.</b> Does this work present
+                                (potential) research contributions or ideas that
+                                will stimulate interesting conversation among
+                                PCSC attendees?
+                            </li>
+                            <li>
+                                <b>Originality.</b> How does the work build on,
+                                expand, or innovate from existing work in the
+                                area?
+                            </li>
+                            <li>
+                                <b>Validity.</b> How well are the chosen methods
+                                described and justified within the submission?
+                            </li>
+                            <li>
+                                <b>Clarity.</b> How clear, understandable, and
+                                targeted is the writing?
+                            </li>
+                        </ul>
+
+                        <br />
+
+                        <h3 class="impt pb-3">
+                            Benefits to Submitting in PCSC SRW
+                        </h3>
+                        <ul>
+                            <li>
+                                <b>Mentorship.</b> SRW provides an opportunity
+                                for students to receive constructive feedback
+                                from the computing research community.
+                            </li>
+                            <li>
+                                <b>Publication Track Record.</b> Should you opt
+                                for an archival publication, your paper can help
+                                your research gain visibility while also
+                                improving your publication record. This is
+                                particularly beneficial when applying for
+                                advanced graduate studies here and abroad.
+                            </li>
+                            <li>
+                                <b>Exploratory Studies.</b> Submissions with
+                                preliminary results can provide insights on why
+                                and in which scenarios a particular method
+                                succeeds or fails, thus helping both the
+                                students and the computing community to work
+                                together in advancing the field.
+                            </li>
+                        </ul>
+
+                        <br />
+
+                        <h3 class="impt pb-3">Important Dates for PCSC SRW</h3>
+                        <ul>
+                            <li>
+                                <b>Deadline of Paper Submission:</b> March 16,
+                                2024
+                            </li>
+                            <li>
+                                <b>Notification of Authors</b> April 12, 2024
+                            </li>
+                        </ul>
+
+                        <br />
+
+                        <h3 class="impt pb-3">Post-Presentation Mentorship</h3>
+                        <p>
+                            CSP offers students the opportunity to receive
+                            mentorship and guidance in preparing their research
+                            papers, should they opt for archival publication.
+                            The goal of the mentorship program is to help
+                            students improve the quality of writing for
+                            publication.
+                        </p>
+                        <p>
+                            Each paper will be assigned to a mentor who will
+                            review and provide feedback in the form of
+                            guidelines and suggestions to improve the overall
+                            writing. This mentor will not be the same person who
+                            will review the final submission for publication.
+                        </p>
+                    </div>
+
+                    <div class="col-sm-3 pe-lg-5">
+                        <h3 class="impt pb-3">Important Dates</h3>
+                        <ul>
+                            <li>
+                                <b
+                                    >Deadline of Paper Submission for Main
+                                    Conference</b
+                                >
+                                <br />
+                                <a
+                                    href="https://cmt3.research.microsoft.com/PCSC2024"
+                                    class="link-success"
+                                    target="_blank"
+                                    >Submission Portal</a
+                                >&nbsp;&nbsp;<a
+                                    href="https://cmt3.research.microsoft.com/PCSC2024"
+                                    class="link-success"
+                                    target="_blank"
+                                    ><i
+                                        class="fa-solid fa-up-right-from-square fa-2xs icon"
+                                    ></i
+                                ></a>
+                                <br />
+                                <s>February 16, 2024</s>
+                                <br />
+                                <span class="text-danger"
+                                    >February 29, 2024 (extended)</span
+                                >
+                            </li>
+                            <br />
+                            <li>
+                                <b
+                                    >Notification of Authors for Main
+                                    Conference</b
+                                >
+                                <br />
+                                March 16, 2024
+                            </li>
+                            <br />
+                            <li>
+                                <b
+                                    >Submission of Camera-Ready Versions for
+                                    Main Conference</b
+                                >
+                                <br />
+                                March 30, 2024
+                            </li>
+                            <br />
+                            <li>
+                                <b
+                                    >Deadline of Paper Submission for Student
+                                    Research Workshop</b
+                                >
+                                <br />
+                                <a
+                                    href="https://cmt3.research.microsoft.com/PCSC2024"
+                                    class="link-success"
+                                    target="_blank"
+                                    >Submission Portal</a
+                                >&nbsp;&nbsp;<a
+                                    href="https://cmt3.research.microsoft.com/PCSC2024"
+                                    class="link-success"
+                                    target="_blank"
+                                    ><i
+                                        class="fa-solid fa-up-right-from-square fa-2xs icon"
+                                    ></i
+                                ></a>
+                                <br />
+                                <span>March 16, 2024</span>
+                            </li>
+                            <br />
+                            <li>
+                                <b
+                                    >Notification of Authors for Student
+                                    Research Workshop</b
+                                >
+                                <br />
+                                April 12, 2024
+                            </li>
+                            <br />
+                            <li>
+                                <b>Early-Bird Registration Deadline</b>
+                                <br />
+                                March 31, 2024
+                            </li>
+                            <br />
+                            <li>
+                                <b>Deadline of Payment and Registration</b>
+                                <br />
+                                April 19, 2024
+                            </li>
+                            <br />
+                            <li>
+                                <b>Conference Date</b>
+                                <br />
+                                May 9&ndash;11, 2024
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid footer text-center p-2 text-white">
+                &copy; 2023 &nbsp; | &nbsp; Computing Society of the Philippines
+            </div>
+        </div>
+    </body>
+</html>
