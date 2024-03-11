@@ -46,3 +46,8 @@ nav {
 .icon {
     color: var(--bs-success);
 }
+
+.speaker {
+    width: 100%;
+    border-radius: 1em;
+}
