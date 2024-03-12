@@ -1,0 +1,22 @@
+name: Deploy website
+on: 
+  push:
+    branches: [master]
+
+jobs:
+  deploy:
+    name: Deploy website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Transfer to server
+        uses: appleboy/scp-action@master
+        with:
+          host: 103.231.240.132
+          username: ${{ secrets.USERNAME_PCSC }}
+          password: ${{ secrets.PASSWORD_PCSC }}
+          port: 22
+          source: "./*"
+          target: "/var/www/html/"
