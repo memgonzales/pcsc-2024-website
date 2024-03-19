@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>24th Philippine Computing Science Congress</title>
+
+        <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+        <link
+            rel="icon"
+            type="image/png"
+            href="assets/favicon/android-chrome-192x192.png"
+            sizes="192x192"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            href="assets/favicon/android-chrome-512x512.png"
+            sizes="512x512"
+        />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="assets/favicon/apple-touch-icon.png"
+        />
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v6.3.0/css/all.css"
+        />
+        <link rel="stylesheet" href="style/colors.css" />
+        <link rel="stylesheet" href="style/style.css" />
+    </head>
+
+    <body>
+        <div class="container-fluid p-0 m-0" id="parent-container">
+            <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+                <div class="container-fluid ps-lg-3 ps-5 ms-lg-3">
+                    <a class="navbar-brand ms-lg-5 ps-lg-1 me-4" href="/"
+                        >PCSC 2024</a
+                    >
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbar-toggler-menu"
+                        aria-controls="navbar-toggler-menu"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbar-toggler-menu"
+                    >
+                        <ul
+                            class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-5 ps-lg-1 ps-xl-0 ms-xl-3"
+                        >
+                            <li class="nav-item pe-3">
+                                <a class="nav-link" aria-current="page" href="/"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="nav-item dropdown pe-3">
+                                <a
+                                    class="nav-link dropdown-toggle active"
+                                    href="#"
+                                    id="navbarDropdownMenuLink"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                    >Program</a
+                                >
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdownMenuLink"
+                                >
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="program/program-schedule.html"
+                                            >Program Schedule</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="program/ai-symposium.html"
+                                            >AI Symposium</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="program/chi-mnl-workshop.html"
+                                            >CHI MNL Workshop</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item pe-3">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="srw.html"
+                                    >Student Research Workshop</a
+                                >
+                            </li>
+                            <li class="nav-item pe-3">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="accepted-papers-posters.html"
+                                    >Accepted Papers & Posters</a
+                                >
+                            </li>
+                            <li class="nav-item pe-3">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="registration.html"
+                                    >Registration</a
+                                >
+                            </li>
+                            <li class="nav-item dropdown pe-3">
+                                <a
+                                    class="nav-link dropdown-toggle"
+                                    href="#"
+                                    id="navbarDropdownMenuLink"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                    >Author Guidelines</a
+                                >
+                                <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdownMenuLink"
+                                >
+                                    <li>
+                                        <a
+                                            class="dropdown-item"
+                                            href="author-guidelines/paper-templates.html"
+                                            >Paper Templates</a
+                                        >
+                                        <a
+                                            class="dropdown-item"
+                                            href="author-guidelines/poster-guidelines.html"
+                                            >Poster Guidelines</a
+                                        >
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item pe-3">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="proceedings.html"
+                                    >Proceedings</a
+                                >
+                            </li>
+                            <li class="nav-item pe-3">
+                                <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="contact-us.html"
+                                    >Contact Us</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-fluid p-0 mt-lg-0 mt-5">
+                <img src="assets/banner.jpg" style="width: 100%" />
+            </div>
+
+            <div class="container-fluid p-5">
+                <div class="row">
+                    <div class="col-sm-9 ps-lg-5 pb-4 pe-lg-5">
+                        <h3 class="impt pb-4">
+                            AI Symposium (Day 1 &ndash; May 9, 2024)
+                        </h3>
+
+                        <h4 class="impt pb-3">
+                            <u>8:30 AM &ndash; 8:45 AM</u>:&nbsp;&nbsp;Opening
+                        </h4>
+
+                        <h4 class="impt pb-3">
+                            <u>8:45 AM &ndash; 9:45 AM</u>:&nbsp;&nbsp;Plenary
+                            Talk 1
+                        </h4>
+
+                        <span style="font-weight: bold">
+                            Navigating AI's Potential: Choosing the Right Use
+                            Cases for Innovation and Growth
+                        </span>
+
+                        <div class="pt-3">
+                            In the pursuit of leveraging AI's potential, a
+                            critical question emerges: "Where can we
+                            strategically apply this transformative technology
+                            for optimal results?" This presentation delves into
+                            the strategic deployment of AI within business
+                            contexts, offering a blueprint for identifying key
+                            use cases. Our focus centers on responsible AI
+                            adoption, demonstrating a steadfast commitment to
+                            job preservation, facilitating reskilling
+                            initiatives, and contributing to societal
+                            advancement.
+                        </div>
+
+                        <div class="row pt-4">
+                            <div class="col-sm-2 pb-4">
+                                <img
+                                    src="assets/speakers/plenary-1-speaker.jpg"
+                                    class="speaker"
+                                />
+                            </div>
+                            <div class="col-sm-10 pb-4">
+                                <b>Dr. Charibeth Cheng</b> currently serves as
+                                the Associate Dean at De La Salle University's
+                                College of Computer Studies. Additionally, she
+                                holds the position of co-founder and head of
+                                Research at Senti AI. Her professional expertise
+                                centers on Natural Language Processing and
+                                Machine Learning. Her work started in 2003 and
+                                is primarily focused on developing computational
+                                resources that facilitate the processing of text
+                                written in Philippine languages. Notably, she
+                                openly shares several of these tools through
+                                various repositories to benefit the wider
+                                Natural Language Processing community.
+                            </div>
+                        </div>
+
+                        <h4 class="impt pb-3 pt-3">
+                            <u>9:45 AM &ndash; 10:00 AM</u>:&nbsp;&nbsp;Break
+                        </h4>
+
+                        <h4 class="impt pb-3">
+                            <u>10:00 AM &ndash; 11:00 AM</u>:&nbsp;&nbsp;Plenary
+                            Talk 2
+                        </h4>
+
+                        <span style="font-weight: bold">
+                            Responsible AI &ndash; Transparency, Accountability,
+                            and Trust
+                        </span>
+
+                        <div class="pt-3">
+                            There is a need to dispel misconceptions about
+                            artificial intelligence (AI) to effectively leverage
+                            its potential for boosting workplace productivity
+                            and national development. It acknowledges the
+                            practical applications of AI, such as voice
+                            recognition, computer vision, and internet searches.
+                            However, Dr. Teehankee criticizes the exaggerated
+                            hype surrounding chatbots built on large language
+                            models like GPT-4 and its contenders, suggesting
+                            that this creates unnecessary confusion and
+                            distraction.
+                        </div>
+
+                        <div class="row pt-4">
+                            <div class="col-sm-2 pb-4">
+                                <img
+                                    src="assets/speakers/plenary-2-speaker.jpg"
+                                    class="speaker"
+                                />
+                            </div>
+                            <div class="col-sm-10 pb-4">
+                                <b>Dr. Benito Teehankee</b> is a Full Professor
+                                and the former Chairperson of the Management and
+                                Organization Department of the Ramon V. del
+                                Rosario College of Business at De La Salle
+                                University (DLSU). He handles various leadership
+                                and management topics for clients such as Bangko
+                                Sentral ng Pilipinas, the Social Security
+                                System, Metro Pacific Tollways Corporation, DB
+                                Schenker PH, and Coca-Cola FEMSA Phils. to name
+                                a few.
+                            </div>
+                        </div>
+
+                        <h4 class="impt pb-3 pt-3">
+                            <u>11:00 AM &ndash; 12:00 PM</u>:&nbsp;&nbsp;Plenary
+                            Talk 3
+                        </h4>
+
+                        <span style="font-weight: bold">
+                            Philosophical Foundations of AI
+                        </span>
+
+                        <div class="pt-3">
+                            The technology of AI (artificial intelligence) has
+                            been providing us with more efficient ways of doing
+                            things in various areas of our lives. It
+                            facilitates, for instance, how we accomplish our
+                            tasks, solve some of our complex problems, and
+                            communicate with one another. But along with new
+                            ways of doing things are new risks and dangers,
+                            which in turn give rise to a new area of ethical
+                            issues. The peculiarities of this technology, such
+                            as, among other things, the lack of transparency in
+                            how it performs its (computational) processes and
+                            its ability to quickly extract patterns from a large
+                            set of data and generate new facts from preexisting
+                            ones, have raised ethical concerns that necessitate
+                            a new approach. Consequently, a new area of ethical
+                            studies, called "AI Ethics," has been instituted for
+                            this purpose. The lecture aims to provide an
+                            overview of this discipline. It will first explain
+                            the key concepts that define the discipline, namely,
+                            AI and ethics. After which, it will examine the
+                            various ethical issues arising from the use of AI
+                            technology.
+                        </div>
+
+                        <div class="row pt-4">
+                            <div class="col-sm-2 pb-4">
+                                <img
+                                    src="assets/speakers/plenary-3-speaker.png"
+                                    class="speaker"
+                                />
+                            </div>
+                            <div class="col-sm-10 pb-4">
+                                <b>Dr. Napoleon M. Mabaquiao Jr.</b> is a full
+                                professor of philosophy at De La Salle
+                                University (DLSU), Manila. He specializes in the
+                                areas of ethics, philosophy of mind, and
+                                philosophy of language. He earned his B.A. in
+                                Philosophy (magna cum laude) and M.A. in
+                                Philosophy at the University of the Philippines,
+                                Diliman. He obtained his Ph.D. in Philosophy
+                                (with gold medals for high distinction and
+                                outstanding dissertation) at DLSU&ndash;Manila.
+                                He has published journal articles and books in
+                                the areas of his specialization.
+                            </div>
+                        </div>
+
+                        <h4 class="impt pb-3 pt-3">
+                            <u>12:00 PM &ndash; 1:00 PM</u>:&nbsp;&nbsp;Lunch
+                        </h4>
+                        <h4 class="impt pb-3 pt-2">
+                            <u>1:00 PM &ndash; 2:30 PM</u>:&nbsp;&nbsp;CSP
+                            25<sup>th</sup> Year Silver Workshop
+                        </h4>
+                        <h4 class="impt pb-3 pt-2">
+                            <u>2:30 PM &ndash; 2:45 PM</u>:&nbsp;&nbsp;Break
+                        </h4>
+                        <h4 class="impt pb-3 pt-2">
+                            <u>2:45 PM &ndash; 3:45 PM</u>:&nbsp;&nbsp;Parallel
+                            Sessions &ndash; Cluster 1
+                        </h4>
+
+                        <span style="font-weight: bold"> AI in Education </span>
+
+                        <div class="pt-3">
+                            According to UNESCO, artificial intelligence (AI)
+                            has the potential to address some of the biggest
+                            challenges in education today. However, a lot of
+                            educators are still hesitant to embrace AI because
+                            of its potential misuse, which can undermine the
+                            integrity of our academic systems. This talk aims to
+                            provide a level perspective on the current state of
+                            AI in the context of education by exploring the
+                            strengths and weaknesses of various state-of-the-art
+                            AI tools, their many potential applications for
+                            educators and students in various phases of teaching
+                            and learning, as well as the potential risks and how
+                            we can minimize them. If you are an educator looking
+                            to help prepare your students for an AI-powered
+                            future, then this talk is a good place to start.
+                        </div>
+
+                        <div class="row pt-4">
+                            <div class="col-sm-2 pb-4">
+                                <img
+                                    src="assets/speakers/cluster-1-speaker-1.jpg"
+                                    class="speaker"
+                                />
+                            </div>
+                            <div class="col-sm-10 pb-4">
+                                <b> Dr. Thomas James Tiam-Lee</b> is a research
+                                fellow at the Andrew L. Tan Data Science
+                                Institute. He received his Ph.D. in Future
+                                University Hakodate in Hokkaido, Japan under a
+                                scholarship from the Japanese government. His
+                                dissertation is on the computational modelling
+                                of students' emotional states while learning
+                                programming. He has received several
+                                recognitions for his research work, including
+                                the best full research paper at the 14<sup
+                                    >th</sup
+                                >
+                                International Conference on Intelligent Tutoring
+                                Systems. Currently, he is an assistant professor
+                                in De La Salle University, College of Computer
+                                Studies, where he focuses on artificial
+                                intelligence, computational social science, data
+                                science, and its applications to various fields
+                                and disciplines.
+                            </div>
+                        </div>
+
+                        <span style="font-weight: bold"> AI in Business </span>
+
+                        <div class="pt-3">
+                            According to Forbes, there is a wide range of AI in
+                            business. This includes the ability for retailers to
+                            analyze data, manage inventory, make sound marketing
+                            decisions, improve customer experience, and use
+                            automation for repetitive tasks through Robotics
+                            Process Automation (RPA). This helps businesses and
+                            employees be more productive and gets the job done
+                            swiftly.
+                        </div>
+
+                        <div class="row pt-4">
+                            <div class="col-sm-2 pb-4">
+                                <img
+                                    src="assets/speakers/cluster-1-speaker-2.jpg"
+                                    class="speaker"
+                                />
+                            </div>
+                            <div class="col-sm-10 pb-4">
+                                <b>Dr. Ma. Rowena R. Caguiat</b> is an Associate
+                                Professor at the College of Computer Studies and
+                                Director for Professional Training and
+                                Development at the School of Lifelong Learning,
+                                De La Salle University. Dr. Caguiat has over 25
+                                years in the IT Industry, specializing in
+                                Enterprise Applications (ERP), Project
+                                Management, eLearning, Instructional Design,
+                                Academic Teaching, Research, and Development.
+                            </div>
+                        </div>
+
+                        <h4 class="impt pb-3 pt-3">
+                            <u>3:45 PM &ndash; 4:45 PM</u>:&nbsp;&nbsp;Parallel
+                            Sessions &ndash; Cluster 2
+                        </h4>
+
+                        <span style="font-weight: bold">
+                            AI in Creative Arts
+                        </span>
+
+                        <div class="pt-3">
+                            His latest course entitled "Introduction to AI
+                            Technology" aims to give a wholistic understanding
+                            of Artificial Intelligence and its relationship to
+                            Human Experience -especially in the fields Media,
+                            Technology, and Society. It does this from diverse
+                            vantage points: its philosophical origins, the
+                            ethical challenges surrounding it, and its creative
+                            possibilities.
+                        </div>
+
+                        <div class="row pt-4">
+                            <div class="col-sm-2 pb-4">
+                                <img
+                                    src="assets/speakers/cluster-2-speaker-1.jpg"
+                                    class="speaker"
+                                />
+                            </div>
+                            <div class="col-sm-10 pb-4">
+                                Since his retirement from the Cultural Center of
+                                the Philippines, where he served as head of its
+                                Media Arts Division and a founding member of
+                                Cinemalaya,
+                                <b>Mr. Edward Delos Santos Cabagnot</b> now
+                                devotes his time to teaching and organizing
+                                film-related events nationwide. Currently, he
+                                teaches at the University of the Philippines, De
+                                La Salle University, and DLS&ndash;College of
+                                Saint Benilde. His exceptional teaching focus
+                                includes Contemporary Southeast Asian Cinema,
+                                Film Festival Management, and Philosophy and
+                                Pinoy Cinema.
+                            </div>
+                        </div>
+
+                        <span style="font-weight: bold">
+                            AI in Industry Series
+                        </span>
+
+                        <div class="pt-3">
+                            This session will delve into real-world examples
+                            showcasing how AI optimizes operations, enhances
+                            decision-making, and revolutionizes customer
+                            experiences. Discover how AI-driven technologies
+                            such as anomaly detection, predictive analytics and
+                            machine learning are transforming industries,
+                            enabling businesses to unlock new opportunities and
+                            stay ahead in today's rapidly evolving landscape.
+                            Whether you're a seasoned industry professional or
+                            an AI enthusiast, this talk promises to inspire and
+                            enlighten, providing valuable insights into the AI
+                            revolution that is shaping the future of industries.
+                        </div>
+
+                        <div class="row pt-4">
+                            <div class="col-sm-2 pb-4">
+                                <img
+                                    src="assets/speakers/cluster-2-speaker-2.jpg"
+                                    class="speaker"
+                                />
+                            </div>
+                            <div class="col-sm-10 pb-4">
+                                <b>Dr. Ann Franchesca Laguna</b> is an Assistant
+                                Professor in the Department of Computer
+                                Technology at De La Salle University. She is
+                                also a member of the Bioinformatics Laboratory,
+                                the Center for Automation Research and Data
+                                Science Institute at the university. She
+                                received her Ph.D. in Computer Science and
+                                Engineering from the University of Notre Dame,
+                                USA, in May 2022 under the Fulbright
+                                Scholarship. She received her MS degree in
+                                Electrical Engineering under the Engineering
+                                Research and Development (ERDT) Scholarship of
+                                the Philippine Department of Science and
+                                Technology (DOST) and a BS degree in Computer
+                                Engineering from the University of the
+                                Philippines &ndash; Diliman, 2012. She is a
+                                recipient of Outstanding Research Assistant at
+                                the Department of Computer Science and
+                                Engineering at the University of Notre Dame and
+                                has been nominated for the best paper award at
+                                DATE 2021. She has published in top conferences
+                                and journals, including
+                                <i>Nature Communications</i> and
+                                <i>Nature Electronics</i>. She is currently the
+                                managing editor of
+                                <i
+                                    >ACM Transactions on Design Automation of
+                                    Electronic Systems</i
+                                >
+                                (TODAES).
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 pe-lg-5">
+                        <h3 class="impt pb-3">Important Dates</h3>
+                        <ul>
+                            <li>
+                                <b
+                                    >Deadline of Paper Submission for Main
+                                    Conference</b
+                                >
+                                <br />
+                                <a
+                                    href="https://cmt3.research.microsoft.com/PCSC2024"
+                                    class="link-success"
+                                    target="_blank"
+                                    >Submission Portal</a
+                                >&nbsp;&nbsp;<a
+                                    href="https://cmt3.research.microsoft.com/PCSC2024"
+                                    class="link-success"
+                                    target="_blank"
+                                    ><i
+                                        class="fa-solid fa-up-right-from-square fa-2xs icon"
+                                    ></i
+                                ></a>
+                                <br />
+                                <s>February 16, 2024</s>
+                                <br />
+                                <s>February 29, 2024</s>
+                                <br />
+                                <s>March 17, 2024 (FINAL)</s>
+                            </li>
+                            <br />
+                            <li>
+                                <b>Author Notification for Main Conference</b>
+                                <br />
+                                <s>March 16, 2024</s>
+                                <br />
+                                <span class="text-danger">April 1, 2024</span>
+                            </li>
+                            <br />
+                            <li>
+                                <b
+                                    >Deadline of Camera-Ready Submission for
+                                    Main Conference</b
+                                >
+                                <br />
+                                <s>March 30, 2024</s>
+                                <br />
+                                <span class="text-danger">April 11, 2024</span>
+                            </li>
+                            <br />
+                            <li>
+                                <b
+                                    >Deadline of Paper Submission for Student
+                                    Research Workshop</b
+                                >
+                                <br />
+                                <a
+                                    href="https://cmt3.research.microsoft.com/PCSC2024"
+                                    class="link-success"
+                                    target="_blank"
+                                    >Submission Portal</a
+                                >&nbsp;&nbsp;<a
+                                    href="https://cmt3.research.microsoft.com/PCSC2024"
+                                    class="link-success"
+                                    target="_blank"
+                                    ><i
+                                        class="fa-solid fa-up-right-from-square fa-2xs icon"
+                                    ></i
+                                ></a>
+                                <br />
+                                <s>March 16, 2024</s>
+                                <br />
+                                <s>March 17, 2024</s>
+                            </li>
+                            <br />
+                            <li>
+                                <b
+                                    >Author Notification for Student Research
+                                    Workshop</b
+                                >
+                                <br />
+                                April 1, 2024
+                            </li>
+                            <br />
+                            <li>
+                                <b>Early-Bird Registration Deadline</b>
+                                <br />
+                                <a
+                                    href="https://bit.ly/PCSC2024Registration"
+                                    class="link-success"
+                                    target="_blank"
+                                    >Registration Link</a
+                                >&nbsp;&nbsp;<a
+                                    href="https://bit.ly/PCSC2024Registration"
+                                    class="link-success"
+                                    target="_blank"
+                                    ><i
+                                        class="fa-solid fa-up-right-from-square fa-2xs icon"
+                                    ></i
+                                ></a>
+                                <br />
+                                <s>March 31, 2024</s>
+                                <br />
+                                <span class="text-danger">April 15, 2024</span>
+                            </li>
+                            <br />
+                            <li>
+                                <b>Author Registration Deadline</b>
+                                <br />
+                                <a
+                                    href="https://bit.ly/PCSC2024Registration"
+                                    class="link-success"
+                                    target="_blank"
+                                    >Registration Link</a
+                                >&nbsp;&nbsp;<a
+                                    href="https://bit.ly/PCSC2024Registration"
+                                    class="link-success"
+                                    target="_blank"
+                                    ><i
+                                        class="fa-solid fa-up-right-from-square fa-2xs icon"
+                                    ></i
+                                ></a>
+                                <br />
+                                <s>April 19, 2024</s>
+                                <br />
+                                <span class="text-danger">April 21, 2024</span>
+                            </li>
+                            <br />
+                            <li>
+                                <b>Conference Date</b>
+                                <br />
+                                May 9&ndash;11, 2024
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid footer text-center p-2 text-white">
+                &copy; 2023 &nbsp; | &nbsp; Computing Society of the Philippines
+            </div>
+        </div>
+    </body>
+</html>
