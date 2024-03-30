@@ -4,6 +4,7 @@
 ![badge][badge-js]
 ![badge][badge-jquery] 
 ![badge][badge-apache] <br>
+![badge][badge-prettier]
 [![Actions Status](https://github.com/memgonzales/pcsc-2024-website/workflows/Deploy%20website/badge.svg)](https://github.com/memgonzales/pcsc-2024-website/actions)
 ![badge][badge-github-actions]
 
@@ -27,3 +28,4 @@ The **Philippine Computing Science Congress** is organized by the **Computing So
 [badge-jquery]: https://img.shields.io/badge/jquery-%230769AD.svg?style=flat&logo=jquery&logoColor=white
 [badge-apache]: https://img.shields.io/badge/Apache-D22128?style=flat&logo=Apache&logoColor=white
 [badge-github-actions]: https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white
+[badge-prettier]: https://img.shields.io/badge/prettier-1A2C34?style=flat&logo=prettier&logoColor=F7BA3E
