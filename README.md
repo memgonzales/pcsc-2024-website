@@ -9,7 +9,7 @@
 
 This is the code for the website of the 24<sup>th</sup> Philippine Computing Science Congress.
 
-🔗 http://pcsc.dlsu.edu.ph/
+🔗 [https://pcsc.dlsu.edu.ph/](https://pcsc.dlsu.edu.ph/)
 
 ## About the Philippine Computing Science Congress
 
