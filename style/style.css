@@ -48,8 +48,21 @@ nav {
 }
 
 .speaker {
-    width: 100%;
+    width: 10em;
+    margin-top: 0.3em;
+    margin-right: 1.5em;
+    margin-bottom: 0.7em;
     border-radius: 1em;
+}
+
+@media(max-width: 768px) {
+    .speaker {
+        width: 100%;
+        margin-top: 0.3em;
+        margin-right: 2em;
+        margin-bottom: 1.5em;
+        border-radius: 1em;
+    }
 }
 
 .justify {
