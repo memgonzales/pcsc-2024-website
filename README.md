@@ -3,8 +3,8 @@
 ![badge][badge-bootstrap]
 ![badge][badge-js]
 ![badge][badge-jquery] 
-![badge][badge-apache] <br>
-![badge][badge-prettier]
+![badge][badge-prettier] <br>
+![badge][badge-apache]
 [![Actions Status](https://github.com/memgonzales/pcsc-2024-website/workflows/Deploy%20website/badge.svg)](https://github.com/memgonzales/pcsc-2024-website/actions)
 ![badge][badge-github-actions]
 
