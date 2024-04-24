@@ -90,3 +90,7 @@ a {
 td {
     vertical-align: top;
 }
+
+.publist li {
+    padding-bottom: 1em;
+}
