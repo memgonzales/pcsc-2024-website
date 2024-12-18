@@ -1,771 +1,809 @@
 <!DOCTYPE html>
 
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>24th Philippine Computing Science Congress</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>24th Philippine Computing Science Congress</title>
 
-        <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
-        <link
-            rel="icon"
-            type="image/png"
-            href="assets/favicon/android-chrome-192x192.png"
-            sizes="192x192"
-        />
-        <link
-            rel="icon"
-            type="image/png"
-            href="assets/favicon/android-chrome-512x512.png"
-            sizes="512x512"
-        />
-        <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="assets/favicon/apple-touch-icon.png"
-        />
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/android-chrome-192x192.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="assets/favicon/android-chrome-512x512.png"
+      sizes="512x512"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon/apple-touch-icon.png"
+    />
 
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-        />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <link
-            rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v6.3.0/css/all.css"
-        />
-        <link rel="stylesheet" href="style/colors.css" />
-        <link rel="stylesheet" href="style/style.css" />
-    </head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.3.0/css/all.css"
+    />
+    <link rel="stylesheet" href="style/colors.css" />
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
 
-    <body>
-        <div class="container-fluid p-0 m-0" id="parent-container">
-            <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
-                <div class="container-fluid ps-lg-3 ps-5 ms-lg-3">
-                    <a class="navbar-brand ms-lg-5 ps-lg-1 me-4" href="/"
-                        >PCSC 2024</a
+  <body>
+    <div class="container-fluid p-0 m-0" id="parent-container">
+      <nav class="navbar navbar-expand-xl navbar-dark fixed-top">
+        <div class="container-fluid ps-lg-3 ps-5 ms-lg-3">
+          <a class="navbar-brand ms-lg-5 ps-lg-1 me-4" href="/">PCSC 2024</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-toggler-menu"
+            aria-controls="navbar-toggler-menu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar-toggler-menu">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-5 ps-lg-1 ps-xl-0 ms-xl-3"
+            >
+              <li class="nav-item pe-3">
+                <a class="nav-link" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Program</a
+                >
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="program/program-schedule.html"
+                      >Program Schedule</a
                     >
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbar-toggler-menu"
-                        aria-controls="navbar-toggler-menu"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="program/ai-symposium.html"
+                      >PCSC AI Workshops
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="program/acm-wic-ph.html"
+                      >ACM WiC-PH Celebration
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="program/chi-mnl-workshop.html"
+                      >CHI MNL Workshop</a
                     >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div
-                        class="collapse navbar-collapse"
-                        id="navbar-toggler-menu"
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="program/quantum-workshop.html"
+                      >SIG-MACS Quantum Computing <br />
+                      Workshop</a
                     >
-                        <ul
-                            class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-5 ps-lg-1 ps-xl-0 ms-xl-3"
-                        >
-                            <li class="nav-item pe-3">
-                                <a class="nav-link" aria-current="page" href="/"
-                                    >Home</a
-                                >
-                            </li>
-                            <li class="nav-item dropdown pe-3">
-                                <a
-                                    class="nav-link dropdown-toggle"
-                                    href="#"
-                                    id="navbarDropdownMenuLink"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                    >Program</a
-                                >
-                                <ul
-                                    class="dropdown-menu"
-                                    aria-labelledby="navbarDropdownMenuLink"
-                                >
-                                    <li>
-                                        <a
-                                            class="dropdown-item"
-                                            href="program/program-schedule.html"
-                                            >Program Schedule</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="dropdown-item"
-                                            href="program/ai-symposium.html"
-                                            >PCSC AI Workshops
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="dropdown-item"
-                                            href="program/acm-wic-ph.html"
-                                            >ACM WiC-PH Celebration
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="dropdown-item"
-                                            href="program/chi-mnl-workshop.html"
-                                            >CHI MNL Workshop</a
-                                        >
-                                    </li>
-                                    <li>
-                                        <a
-                                            class="dropdown-item"
-                                            href="program/quantum-workshop.html"
-                                            >SIG-MACS Quantum Computing <br />
-                                            Workshop</a
-                                        >
-                                    </li>
+                  </li>
 
-                                    <li>
-                                        <a
-                                            class="dropdown-item"
-                                            href="program/oldies-but-goodies.html"
-                                            >Oldies but Goodies Session</a
-                                        >
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item pe-3">
-                                <a
-                                    class="nav-link"
-                                    aria-current="page"
-                                    href="srw.html"
-                                    >Student Research Workshop</a
-                                >
-                            </li>
-                            <li class="nav-item pe-3">
-                                <a
-                                    class="nav-link active"
-                                    aria-current="page"
-                                    href="accepted-papers.html"
-                                    >Accepted Papers</a
-                                >
-                            </li>
-                            <li class="nav-item pe-3">
-                                <a
-                                    class="nav-link"
-                                    aria-current="page"
-                                    href="registration.html"
-                                    >Registration</a
-                                >
-                            </li>
-                            <li class="nav-item dropdown pe-3">
-                                <a
-                                    class="nav-link dropdown-toggle"
-                                    href="#"
-                                    id="navbarDropdownMenuLink"
-                                    role="button"
-                                    data-bs-toggle="dropdown"
-                                    aria-expanded="false"
-                                    >Author Guidelines</a
-                                >
-                                <ul
-                                    class="dropdown-menu"
-                                    aria-labelledby="navbarDropdownMenuLink"
-                                >
-                                    <li>
-                                        <a
-                                            class="dropdown-item"
-                                            href="author-guidelines/paper-templates.html"
-                                            >Paper Templates</a
-                                        >
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item pe-3">
-                                <a
-                                    class="nav-link"
-                                    aria-current="page"
-                                    href="proceedings.html"
-                                    >Proceedings</a
-                                >
-                            </li>
-                            <li class="nav-item pe-3">
-                                <a
-                                    class="nav-link"
-                                    aria-current="page"
-                                    href="contact-us.html"
-                                    >Contact Us</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
-            <div class="container-fluid p-0 mt-lg-0 mt-5">
-                <img src="assets/banner.jpg" style="width: 100%" />
-            </div>
-
-            <div class="container-fluid p-5">
-                <div class="row">
-                    <div class="col-sm-9 ps-lg-5 pb-5 pe-lg-5">
-                        <h3 class="impt pb-3">Presentation Schedule</h3>
-                        <p>
-                            Kindly refer to the presentation schedule here:
-                            <a
-                                href="https://bit.ly/PCSC2024-Presentation-Schedule"
-                                class="link-success"
-                                >https://bit.ly/PCSC2024-Presentation-Schedule</a
-                            >
-                        </p>
-
-                        <p><b>Note:</b></p>
-
-                        <ul>
-                            <li>
-                                <b>Full Paper Presentation:</b> 15 mins
-                                presentation + 5 mins Q&A
-                            </li>
-                            <li>
-                                <b
-                                    >Short Paper Presentation (Student Research
-                                    Workshop):</b
-                                >
-                                10 mins presentation + 5 mins Q&A
-                            </li>
-                        </ul>
-
-                        <br />
-
-                        <h3 class="impt pb-3">Full Papers</h3>
-                        <ul class="publist">
-                            <li>
-                                <b
-                                    >Incorporating a Computer Vision System to a
-                                    Web Server to Parse Real-time Data for
-                                    Valorant Esports</b
-                                >
-                                <br />
-                                Jan Jozef R. Laguer, Jenilyn Casano
-                                <br />
-                                Ateneo de Manila University
-                            </li>
-                            <li>
-                                <b
-                                    >Predicting Student Performance Based on
-                                    Moodle Forum Interaction Logs</b
-                                >
-
-                                <br />
-                                Maya Louise E. Asuero, Angelu Ferdinand Garcia,
-                                Julius Czar Makiling, Jun Rangie Obispo
-                                <br />
-                                Xavier University
-                            </li>
-                            <li>
-                                <b
-                                    >Factoring a Quadratic from a Degree
-                                    <i>N</i> Polynomial Using Newton's Method</b
-                                >
-
-                                <br />
-                                Pablo R. Manalastas
-                                <br />
-                                Ateneo de Manila University
-                            </li>
-                            <li>
-                                <b
-                                    >ChattyTicket: Classifying Emotion and
-                                    Toxicity in Valorant Chats using Multi-Task
-                                    Learning with Bi-LSTM Algorithm and BERT</b
-                                >
-
-                                <br />
-                                Johndel N. Encabo, Maria Cassandra Vitug, Tita
-                                Herradura
-                                <br />
-                                De La Salle University - Dasmariñas
-                            </li>
-                            <li>
-                                <b
-                                    >Utilizing Machine Learning Methods to
-                                    Predict Student Re-engagement via Minecraft
-                                    Data</b
-                                >
-
-                                <br />
-                                Mylene B. Villegas
-                                <br />
-                                Ateneo de Manila University
-                            </li>
-                            <li>
-                                <b
-                                    >Exploring Photogrammetry and Neural
-                                    Radiance Fields for Preserving Baguio
-                                    Statues and Monuments</b
-                                >
-
-                                <br />
-                                Yohann C. Gayao, Bill Malitao, Christella
-                                Ocampo, Lovely Reformado
-                                <br />
-                                University of the Cordilleras
-                            </li>
-                            <li>
-                                <b
-                                    >AniFrame: A Programming Language for 2D
-                                    Drawing and Frame-Based Animation</b
-                                >
-
-                                <br />
-                                Mark Edward M. Gonzales, Hans Oswald A. Ibrahim,
-                                Elyssia Barrie H. Ong, Ryan Austin Fernandez
-                                <br />
-                                De La Salle University
-                            </li>
-                            <li>
-                                <b
-                                    >Comparative Analysis of Heuristics For The
-                                    Offline Food Delivery Problem On Starlike
-                                    Graphs</b
-                                >
-
-                                <br />
-                                Erick Gabriel T. Lopez, Mikael Giannes M.
-                                Bernardino, Jose Alfonso H. Barreiro, John Paul
-                                Vergara
-                                <br />
-                                Ateneo de Manila University
-                            </li>
-                            <li>
-                                <b
-                                    >Performance of various protein
-                                    representations for predicting phage-host
-                                    interaction</b
-                                >
-
-                                <br />
-                                Franz Stewart V. Dizon, Anish Shrestha, Jennifer
-                                Ureta
-                                <br />
-                                De La Salle University
-                            </li>
-                            <li>
-                                <b
-                                    >Coronavirus Herd Immunity Optimizer with
-                                    Tent and Circle Chaotic Maps for the
-                                    <i>p</i>-Center Facility Location Problem:
-                                    The Case of Davao City, Digos City and Tagum
-                                    City, Philippines</b
-                                >
-
-                                <br />
-                                Hanna Mae Lina Limpag, Ritchie Mae T. Gamot
-                                <br />
-                                University of the Philippines Mindanao
-                            </li>
-                            <li>
-                                <b
-                                    >Data-centric Advanced Knowledge Interface
-                                    for Legal Archives: An NLP-Enhanced Tax
-                                    Statute Text Search System in the
-                                    Philippines</b
-                                >
-
-                                <br />
-                                Nicole Abejuela, Matthew Roque, Shirley Chu,
-                                Melvin Cabatuan, Michael Ng, Hans Nolasco,
-                                Jenine Valencia
-                                <br />
-                                De La Salle University - Manila
-                            </li>
-                            <li>
-                                <b
-                                    >Evaluating ChatGPT for Joint Intent
-                                    Detection and Slot Filling: Zero-Shot vs.
-                                    Few-Shot Prompting</b
-                                >
-
-                                <br />
-                                Hannah Regine C. Fong, Ethel Ong
-                                <br />
-                                De La Salle University - Manila
-                            </li>
-                            <li>
-                                <b
-                                    >Performance Evaluation: Triplet Loss
-                                    Implementation on AlexNet With MTCNN In
-                                    Detecting Deepfakes</b
-                                >
-
-                                <br />
-                                Rich Tristan Lim, Raymond Anthony P. Aya-ay,
-                                Angie Canillo
-                                <br />
-                                University of San Carlos
-                            </li>
-                            <li>
-                                <b
-                                    >Summarization-Driven Collaborative
-                                    Filtering for Explainable Recommendation</b
-                                >
-
-                                <br />
-                                Reinald Adrian Pugoy
-                                <br />
-                                University of the Philippines
-                            </li>
-                            <li>
-                                <b
-                                    >ErrgoEngine: A Contextualized Programming
-                                    Error Analysis Translation Engine</b
-                                >
-
-                                <br />
-                                Ned Isaiah B. Palacios, James Bryan Parcasio,
-                                Joseph Anthony Pornillos, Rogelio Badiang Jr.,
-                                Aurora Cristina Manseras
-                                <br />
-                                University of the Immaculate Conception
-                            </li>
-                            <li>
-                                <b
-                                    >Immune Survivors: A Serious Game for
-                                    Raising Immune System Awareness</b
-                                >
-
-                                <br />
-                                Junma Ogawa, Setiel Olivarez, James Gabriel
-                                Omalin, Gil Perfecto Noel Alva, Ian Joshua
-                                Nemeño, Thomas James Z. Tiam-Lee
-                                <br />
-                                De La Salle University - Manila
-                            </li>
-                            <li>
-                                <b
-                                    >An Arduino-Based Wearable Gesture Device as
-                                    a Controller for Quadcopter Drones</b
-                                >
-
-                                <br />
-                                Clement Y. Ong, Yasmin Datario, Bryan Dela Cruz,
-                                Juan Geronimo, Justin Lanting, Lester Opulencia
-                                <br />
-                                De La Salle University - Manila
-                            </li>
-                            <li>
-                                <b
-                                    >Halogen: A 2D Simulation Game on Dental
-                                    Health Challenges in the Philippines</b
-                                >
-
-                                <br />
-                                Norberto G. Tadeo, John Ryan H. Tamano, Julliana
-                                C. Cruz
-                                <br />
-                                Ateneo de Manila University
-                            </li>
-                            <li>
-                                <b
-                                    >Formal Verification of Shortest Job First
-                                    Scheduling Algorithm in Coq</b
-                                >
-
-                                <br />
-                                Jian Lawrence G. Luteria, Andrei Tiangco, Earl
-                                Wilbur Nogra
-                                <br />
-                                University of the Philippines Diliman
-                            </li>
-                            <li>
-                                <b
-                                    >AI Skill Check: An Examination of ChatGPT's
-                                    Consistency in Linguistics and Mathematics
-                                    using the SATs</b
-                                >
-
-                                <br />
-                                Maria Elisha Kaye B. Nazario, Eliza Janel Tan,
-                                Keith Alexandre Ramos, Steven Vincent Lim,
-                                Shirley Chu
-                                <br />
-                                De La Salle University Integrated School <br />
-                                De La Salle University - Manila
-                            </li>
-                            <li>
-                                <b
-                                    >Formal Verification of a Custom Scheduling
-                                    Algorithm and Specification of a Round-Robin
-                                    Implementation using Coq</b
-                                >
-
-                                <br />
-                                Christian Julien N. Choa, Brylle Joshua Bual
-                                Logroño, Raymart Andrew P. Villos
-                                <br />
-                                University of the Philippines Diliman
-                            </li>
-                            <li>
-                                <b
-                                    >Modeling Perceptual Organization in
-                                    Abstract Art Using Eye Tracking Data</b
-                                >
-
-                                <br />
-                                Carlo Ram M. Ferrer, Maria Mercedes Rodrigo
-                                <br />
-                                Ateneo de Manila University
-                            </li>
-                        </ul>
-
-                        <br />
-
-                        <h3 class="impt pb-3">
-                            Short Papers (Student Research Workshop)
-                        </h3>
-                        <ul class="publist">
-                            <li>
-                                <b
-                                    >Open Law Philippines: Legal Document
-                                    Retrieval & Analysis</b
-                                >
-
-                                <br />
-                                Andres Clemente, Priscilla Licup, Kenn
-                                Villarama, Joshua Permito, Ann Laguna, Donnald
-                                Miguel Robles
-                                <br />
-                                De La Salle University
-                            </li>
-                            <li>
-                                <b>
-                                    FrameRL: DNA to Protein Sequence Alignment
-                                    using Deep Reinforcement Learning</b
-                                >
-
-                                <br />
-                                Wai Kei Li, Justin Ayuyao, John Carlo Joyo, Renz
-                                Ezekiel Cruz, Roger Luis Uy
-                                <br />
-                                De La Salle University
-                            </li>
-                            <li>
-                                <b
-                                    >Predicting Philippine Undergraduate
-                                    Employability in Mock Interviews using
-                                    XGBoost, CatBoost, and LightGBM</b
-                                >
-
-                                <br />
-                                Gary Louis P. Garcia, Jane T. Antoque
-                                <br />
-                                South Philippine Adventist College
-                            </li>
-                            <li>
-                                <b
-                                    >Mendo: An AI Symptom-Based Medicine
-                                    Recommender for an Over-The-Counter Drug
-                                    Dispenser</b
-                                >
-
-                                <br />
-                                Wincyr Jan P. Dela Calzada, Johann Gabriel
-                                Sebastian B. Telesforo, Clyde Chester Balaman,
-                                Jenn Leana P. Fernandez
-                                <br />
-                                University of the Immaculate Conception
-                            </li>
-                            <li>
-                                <b
-                                    >Well-Being Assessment Using ChatGPT-4: A
-                                    Zero-Shot Learning Approach</b
-                                >
-
-                                <br />
-                                Julianne Vizmanos, Ethel Ong, Jackylyn Beredo,
-                                Remedios Moog
-                                <br />
-                                De La Salle University
-                            </li>
-                            <li>
-                                <b
-                                    >ConcreteGuard: A YOLOv8-based Web
-                                    Application for Early Detection of Concrete
-                                    Cracks</b
-                                >
-
-                                <br />
-                                Mary Josephine R. Gamit, Miguel Antonio D.
-                                Chavez, John Carlo M. Gayoso, Sheryl D.
-                                Kamantigue
-                                <br />
-                                De La Salle University - Dasmariñas
-                            </li>
-                            <li>
-                                <b
-                                    >Towards a Memory-Efficient Filipino Sign
-                                    Language Recognition Model for Low-Resource
-                                    Devices</b
-                                >
-
-                                <br />
-                                Shuan Noel Co, Darius Ardales, Miguel Gonzales,
-                                Stephanie Joy Suzada, Waynes Weyner Wu, Thomas
-                                James Tiam-Lee, Ann Franchesca Laguna
-                                <br />
-                                De La Salle University - Manila
-                            </li>
-                            <li>
-                                <b
-                                    >AI-Assisted Chest X-ray Annotation Tool for
-                                    Abnormality Classification and
-                                    Localization</b
-                                >
-
-                                <br />
-                                Kyla Joy P. Shitan, Julieza Jane Bella A. Raper,
-                                Karl Vincent F. Bersamin, Kristine Mae M. Adlaon
-                                <br />
-                                University of the Immaculate Conception
-                            </li>
-                            <li>
-                                <b
-                                    >Improved Restaurant Review Analysis using
-                                    VADER-based Sentiment Analysis and Automatic
-                                    Rating Matching</b
-                                >
-
-                                <br />
-                                Alphonsus Joseph Bihag, Justin Brian Abus,
-                                Richard Tyrese Michio M. Uy
-                                <br />
-                                De La Salle University - Dasmariñas
-                            </li>
-                            <li>
-                                <b
-                                    >Enhancing Audio Data Processing: Insights
-                                    from a Transcriber Tool Development and
-                                    Evaluation</b
-                                >
-
-                                <br />
-                                Carlo A. Castro, Muslimin B. Ontong, Aurora
-                                Cristina Manseras, Kristine Mae M. Adlaon
-                                <br />
-                                University of Immaculate Conception
-                            </li>
-                            <li>
-                                <b
-                                    >Comparative Analysis of Machine Learning
-                                    Techniques in the Classification of Pili (<i
-                                        >Canarium ovatum</i
-                                    >
-                                    Engl.) Fruit Varieties</b
-                                >
-
-                                <br />
-                                Leo Constantine S. Bello, Joshua C. Martinez
-                                <br />
-                                Ateneo de Naga University
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-sm-3 pe-lg-5">
-                        <h3 class="impt pb-3">Important Dates</h3>
-                        <ul>
-                            <li>
-                                <b
-                                    >Deadline of Paper Submission for Main
-                                    Conference and Student Research Workshop</b
-                                >
-                                <br />
-                                <a
-                                    href="https://cmt3.research.microsoft.com/PCSC2024"
-                                    class="link-success"
-                                    target="_blank"
-                                    >Submission Portal</a
-                                >&nbsp;&nbsp;<a
-                                    href="https://cmt3.research.microsoft.com/PCSC2024"
-                                    class="link-success"
-                                    target="_blank"
-                                    ><i
-                                        class="fa-solid fa-up-right-from-square fa-2xs icon"
-                                    ></i
-                                ></a>
-                                <br />
-
-                                <s>March 17, 2024</s>
-                            </li>
-                            <br />
-                            <li>
-                                <b
-                                    >Author Notification for Main Conference and
-                                    Student Research Workshop</b
-                                >
-                                <br />
-                                <s>April 9, 2024</s>
-                            </li>
-                            <br />
-                            <li>
-                                <b
-                                    >Deadline of Camera-Ready Submission for
-                                    Main Conference and Student Research
-                                    Workshop</b
-                                >
-                                <br />
-                                <s>April 16, 2024</s>
-                            </li>
-                            <br />
-
-                            <li>
-                                <b>Early-Bird Registration Deadline</b>
-                                <br />
-                                <a
-                                    href="https://bit.ly/PCSC2024Registration"
-                                    class="link-success"
-                                    target="_blank"
-                                    >Registration Link</a
-                                >&nbsp;&nbsp;<a
-                                    href="https://bit.ly/PCSC2024Registration"
-                                    class="link-success"
-                                    target="_blank"
-                                    ><i
-                                        class="fa-solid fa-up-right-from-square fa-2xs icon"
-                                    ></i
-                                ></a>
-                                <br />
-                                <s>April 21, 2024</s>
-                            </li>
-                            <br />
-                            <li>
-                                <b>Author Registration Deadline</b>
-                                <br />
-                                <a
-                                    href="https://bit.ly/PCSC2024Registration"
-                                    class="link-success"
-                                    target="_blank"
-                                    >Registration Link</a
-                                >&nbsp;&nbsp;<a
-                                    href="https://bit.ly/PCSC2024Registration"
-                                    class="link-success"
-                                    target="_blank"
-                                    ><i
-                                        class="fa-solid fa-up-right-from-square fa-2xs icon"
-                                    ></i
-                                ></a>
-                                <br />
-                                <s>April 21, 2024</s>
-                            </li>
-                            <br />
-                            <li>
-                                <b>Conference Date</b>
-                                <br />
-                                May 9&ndash;11, 2024
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-fluid footer text-center p-2 text-white">
-                &copy; 2023 &nbsp; | &nbsp; Computing Society of the Philippines
-            </div>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="program/oldies-but-goodies.html"
+                      >Oldies but Goodies Session</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link" aria-current="page" href="srw.html"
+                  >Student Research Workshop</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="accepted-papers.html"
+                  >Accepted Papers</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link" aria-current="page" href="registration.html"
+                  >Registration</a
+                >
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  >Author Guidelines</a
+                >
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="author-guidelines/paper-templates.html"
+                      >Paper Templates</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link" aria-current="page" href="proceedings.html"
+                  >Proceedings</a
+                >
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link" aria-current="page" href="contact-us.html"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-    </body>
+      </nav>
+
+      <div class="container-fluid p-0 mt-lg-0 mt-5">
+        <img src="assets/banner.jpg" style="width: 100%" />
+      </div>
+
+      <div class="container-fluid p-5">
+        <div class="row">
+          <div class="col-sm-9 ps-lg-5 pb-5 pe-lg-5">
+            <h3 class="impt pb-3">Presentation Schedule</h3>
+            <p>
+              Kindly refer to the presentation schedule here:
+              <a
+                href="https://bit.ly/PCSC2024-Presentation-Schedule"
+                class="link-success"
+                >https://bit.ly/PCSC2024-Presentation-Schedule</a
+              >
+            </p>
+
+            <p><b>Note:</b></p>
+
+            <ul>
+              <li>
+                <b>Full Paper Presentation:</b> 15 mins presentation + 5 mins
+                Q&A
+              </li>
+              <li>
+                <b>Short Paper Presentation (Student Research Workshop):</b>
+                10 mins presentation + 5 mins Q&A
+              </li>
+            </ul>
+
+            <br />
+
+            <h3 class="impt pb-3">Full Papers (Main Conference)</h3>
+            <ul class="publist">
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/8.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Incorporating a Computer Vision System to a Web Server to
+                    Parse Real-time Data for Valorant Esports</a
+                  ></b
+                >
+                <br />
+                Jan Jozef R. Laguer, Jenilyn Casano
+                <br />
+                Ateneo de Manila University
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/13.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Predicting Student Performance Based on Moodle Forum
+                    Interaction Logs</a
+                  ></b
+                >
+
+                <br />
+                Maya Louise E. Asuero, Angelu Ferdinand Garcia, Julius Czar
+                Makiling, Jun Rangie Obispo
+                <br />
+                Xavier University
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/14.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Factoring a Quadratic from a Degree <i>N</i> Polynomial
+                    Using Newton's Method</a
+                  ></b
+                >
+
+                <br />
+                Pablo R. Manalastas
+                <br />
+                Ateneo de Manila University
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/15.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >ChattyTicket: Classifying Emotion and Toxicity in Valorant
+                    Chats using Multi-Task Learning with Bi-LSTM Algorithm and
+                    BERT</a
+                  ></b
+                >
+
+                <br />
+                Johndel N. Encabo, Maria Cassandra Vitug, Tita Herradura
+                <br />
+                De La Salle University - Dasmariñas
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/16.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Utilizing Machine Learning Methods to Predict Student
+                    Re-engagement via Minecraft Data</a
+                  ></b
+                >
+
+                <br />
+                Mylene B. Villegas
+                <br />
+                Ateneo de Manila University
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/17.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Exploring Photogrammetry and Neural Radiance Fields for
+                    Preserving Baguio Statues and Monuments</a
+                  ></b
+                >
+
+                <br />
+                Yohann C. Gayao, Bill Malitao, Christella Ocampo, Lovely
+                Reformado
+                <br />
+                University of the Cordilleras
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/19.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >AniFrame: A Programming Language for 2D Drawing and
+                    Frame-Based Animation</a
+                  ></b
+                >
+
+                <br />
+                Mark Edward M. Gonzales, Hans Oswald A. Ibrahim, Elyssia Barrie
+                H. Ong, Ryan Austin Fernandez
+                <br />
+                De La Salle University
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/20.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Comparative Analysis of Heuristics For The Offline Food
+                    Delivery Problem On Starlike Graphs</a
+                  ></b
+                >
+
+                <br />
+                Erick Gabriel T. Lopez, Mikael Giannes M. Bernardino, Jose
+                Alfonso H. Barreiro, John Paul Vergara
+                <br />
+                Ateneo de Manila University
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/21.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Performance of various protein representations for
+                    predicting phage-host interaction</a
+                  ></b
+                >
+
+                <br />
+                Franz Stewart V. Dizon, Anish Shrestha, Jennifer Ureta
+                <br />
+                De La Salle University
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/25.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Coronavirus Herd Immunity Optimizer with Tent and Circle
+                    Chaotic Maps for the <i>p</i>-Center Facility Location
+                    Problem: The Case of Davao City, Digos City and Tagum City,
+                    Philippines</a
+                  ></b
+                >
+
+                <br />
+                Hanna Mae Lina Limpag, Ritchie Mae T. Gamot
+                <br />
+                University of the Philippines Mindanao
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/28.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Data-centric Advanced Knowledge Interface for Legal
+                    Archives: An NLP-Enhanced Tax Statute Text Search System in
+                    the Philippines</a
+                  ></b
+                >
+
+                <br />
+                Nicole Abejuela, Matthew Roque, Shirley Chu, Melvin Cabatuan,
+                Michael Ng, Hans Nolasco, Jenine Valencia
+                <br />
+                De La Salle University - Manila
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/32.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Evaluating ChatGPT for Joint Intent Detection and Slot
+                    Filling: Zero-Shot vs. Few-Shot Prompting</a
+                  ></b
+                >
+
+                <br />
+                Hannah Regine C. Fong, Ethel Ong
+                <br />
+                De La Salle University - Manila
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/35.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Performance Evaluation: Triplet Loss Implementation on
+                    AlexNet With MTCNN In Detecting Deepfakes</a
+                  ></b
+                >
+
+                <br />
+                Rich Tristan Lim, Raymond Anthony P. Aya-ay, Angie Canillo
+                <br />
+                University of San Carlos
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/36.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Summarization-Driven Collaborative Filtering for
+                    Explainable Recommendation</a
+                  ></b
+                >
+
+                <br />
+                Reinald Adrian Pugoy
+                <br />
+                University of the Philippines
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/41.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >ErrgoEngine: A Contextualized Programming Error Analysis
+                    Translation Engine</a
+                  ></b
+                >
+
+                <br />
+                Ned Isaiah B. Palacios, James Bryan Parcasio, Joseph Anthony
+                Pornillos, Rogelio Badiang Jr., Aurora Cristina Manseras
+                <br />
+                University of the Immaculate Conception
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/47.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Immune Survivors: A Serious Game for Raising Immune System
+                    Awareness</a
+                  ></b
+                >
+
+                <br />
+                Junma Ogawa, Setiel Olivarez, James Gabriel Omalin, Gil Perfecto
+                Noel Alva, Ian Joshua Nemeño, Thomas James Z. Tiam-Lee
+                <br />
+                De La Salle University - Manila
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/50.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >An Arduino-Based Wearable Gesture Device as a Controller
+                    for Quadcopter Drones</a
+                  ></b
+                >
+
+                <br />
+                Clement Y. Ong, Yasmin Datario, Bryan Dela Cruz, Juan Geronimo,
+                Justin Lanting, Lester Opulencia
+                <br />
+                De La Salle University - Manila
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/53.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Halogen: A 2D Simulation Game on Dental Health Challenges
+                    in the Philippines</a
+                  ></b
+                >
+
+                <br />
+                Norberto G. Tadeo, John Ryan H. Tamano, Julliana C. Cruz
+                <br />
+                Ateneo de Manila University
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/54.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Formal Verification of Shortest Job First Scheduling
+                    Algorithm in Coq</a
+                  ></b
+                >
+
+                <br />
+                Jian Lawrence G. Luteria, Andrei Tiangco, Earl Wilbur Nogra
+                <br />
+                University of the Philippines Diliman
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/65.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >AI Skill Check: An Examination of ChatGPT's Consistency in
+                    Linguistics and Mathematics using the SATs</a
+                  ></b
+                >
+
+                <br />
+                Maria Elisha Kaye B. Nazario, Eliza Janel Tan, Keith Alexandre
+                Ramos, Steven Vincent Lim, Shirley Chu
+                <br />
+                De La Salle University Integrated School <br />
+                De La Salle University - Manila
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/67.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Formal Verification of a Custom Scheduling Algorithm and
+                    Specification of a Round-Robin Implementation using Coq</a
+                  ></b
+                >
+
+                <br />
+                Christian Julien N. Choa, Brylle Joshua Bual Logroño, Raymart
+                Andrew P. Villos
+                <br />
+                University of the Philippines Diliman
+              </li>
+              <li>
+                <b
+                  ><a
+                    href="proceedings/main-conference/68.pdf"
+                    class="link-success"
+                    target="_blank"
+                    >Modeling Perceptual Organization in Abstract Art Using Eye
+                    Tracking Data</a
+                  ></b
+                >
+
+                <br />
+                Carlo Ram M. Ferrer, Maria Mercedes Rodrigo
+                <br />
+                Ateneo de Manila University
+              </li>
+            </ul>
+
+            <br />
+
+            <h3 class="impt pb-3">Short Papers (Student Research Workshop)</h3>
+            <ul class="publist">
+              <li>
+                <b>Open Law Philippines: Legal Document Retrieval & Analysis</b>
+
+                <br />
+                Andres Clemente, Priscilla Licup, Kenn Villarama, Joshua
+                Permito, Ann Laguna, Donnald Miguel Robles
+                <br />
+                De La Salle University
+              </li>
+              <li>
+                <b>
+                  FrameRL: DNA to Protein Sequence Alignment using Deep
+                  Reinforcement Learning</b
+                >
+
+                <br />
+                Wai Kei Li, Justin Ayuyao, John Carlo Joyo, Renz Ezekiel Cruz,
+                Roger Luis Uy
+                <br />
+                De La Salle University
+              </li>
+              <li>
+                <b
+                  >Predicting Philippine Undergraduate Employability in Mock
+                  Interviews using XGBoost, CatBoost, and LightGBM</b
+                >
+
+                <br />
+                Gary Louis P. Garcia, Jane T. Antoque
+                <br />
+                South Philippine Adventist College
+              </li>
+              <li>
+                <b
+                  >Mendo: An AI Symptom-Based Medicine Recommender for an
+                  Over-The-Counter Drug Dispenser</b
+                >
+
+                <br />
+                Wincyr Jan P. Dela Calzada, Johann Gabriel Sebastian B.
+                Telesforo, Clyde Chester Balaman, Jenn Leana P. Fernandez
+                <br />
+                University of the Immaculate Conception
+              </li>
+              <li>
+                <b
+                  >Well-Being Assessment Using ChatGPT-4: A Zero-Shot Learning
+                  Approach</b
+                >
+
+                <br />
+                Julianne Vizmanos, Ethel Ong, Jackylyn Beredo, Remedios Moog
+                <br />
+                De La Salle University
+              </li>
+              <li>
+                <b
+                  >ConcreteGuard: A YOLOv8-based Web Application for Early
+                  Detection of Concrete Cracks</b
+                >
+
+                <br />
+                Mary Josephine R. Gamit, Miguel Antonio D. Chavez, John Carlo M.
+                Gayoso, Sheryl D. Kamantigue
+                <br />
+                De La Salle University - Dasmariñas
+              </li>
+              <li>
+                <b
+                  >Towards a Memory-Efficient Filipino Sign Language Recognition
+                  Model for Low-Resource Devices</b
+                >
+
+                <br />
+                Shuan Noel Co, Darius Ardales, Miguel Gonzales, Stephanie Joy
+                Suzada, Waynes Weyner Wu, Thomas James Tiam-Lee, Ann Franchesca
+                Laguna
+                <br />
+                De La Salle University - Manila
+              </li>
+              <li>
+                <b
+                  >AI-Assisted Chest X-ray Annotation Tool for Abnormality
+                  Classification and Localization</b
+                >
+
+                <br />
+                Kyla Joy P. Shitan, Julieza Jane Bella A. Raper, Karl Vincent F.
+                Bersamin, Kristine Mae M. Adlaon
+                <br />
+                University of the Immaculate Conception
+              </li>
+              <li>
+                <b
+                  >Improved Restaurant Review Analysis using VADER-based
+                  Sentiment Analysis and Automatic Rating Matching</b
+                >
+
+                <br />
+                Alphonsus Joseph Bihag, Justin Brian Abus, Richard Tyrese Michio
+                M. Uy
+                <br />
+                De La Salle University - Dasmariñas
+              </li>
+              <li>
+                <b
+                  >Enhancing Audio Data Processing: Insights from a Transcriber
+                  Tool Development and Evaluation</b
+                >
+
+                <br />
+                Carlo A. Castro, Muslimin B. Ontong, Aurora Cristina Manseras,
+                Kristine Mae M. Adlaon
+                <br />
+                University of Immaculate Conception
+              </li>
+              <li>
+                <b
+                  >Comparative Analysis of Machine Learning Techniques in the
+                  Classification of Pili (<i>Canarium ovatum</i> Engl.) Fruit
+                  Varieties</b
+                >
+
+                <br />
+                Leo Constantine S. Bello, Joshua C. Martinez
+                <br />
+                Ateneo de Naga University
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-sm-3 pe-lg-5">
+            <h3 class="impt pb-3">Important Dates</h3>
+            <ul>
+              <li>
+                <b
+                  >Deadline of Paper Submission for Main Conference and Student
+                  Research Workshop</b
+                >
+                <br />
+                <a
+                  href="https://cmt3.research.microsoft.com/PCSC2024"
+                  class="link-success"
+                  target="_blank"
+                  >Submission Portal</a
+                >&nbsp;&nbsp;<a
+                  href="https://cmt3.research.microsoft.com/PCSC2024"
+                  class="link-success"
+                  target="_blank"
+                  ><i class="fa-solid fa-up-right-from-square fa-2xs icon"></i
+                ></a>
+                <br />
+
+                <s>March 17, 2024</s>
+              </li>
+              <br />
+              <li>
+                <b
+                  >Author Notification for Main Conference and Student Research
+                  Workshop</b
+                >
+                <br />
+                <s>April 9, 2024</s>
+              </li>
+              <br />
+              <li>
+                <b
+                  >Deadline of Camera-Ready Submission for Main Conference and
+                  Student Research Workshop</b
+                >
+                <br />
+                <s>April 16, 2024</s>
+              </li>
+              <br />
+
+              <li>
+                <b>Early-Bird Registration Deadline</b>
+                <br />
+                <a
+                  href="https://bit.ly/PCSC2024Registration"
+                  class="link-success"
+                  target="_blank"
+                  >Registration Link</a
+                >&nbsp;&nbsp;<a
+                  href="https://bit.ly/PCSC2024Registration"
+                  class="link-success"
+                  target="_blank"
+                  ><i class="fa-solid fa-up-right-from-square fa-2xs icon"></i
+                ></a>
+                <br />
+                <s>April 21, 2024</s>
+              </li>
+              <br />
+              <li>
+                <b>Author Registration Deadline</b>
+                <br />
+                <a
+                  href="https://bit.ly/PCSC2024Registration"
+                  class="link-success"
+                  target="_blank"
+                  >Registration Link</a
+                >&nbsp;&nbsp;<a
+                  href="https://bit.ly/PCSC2024Registration"
+                  class="link-success"
+                  target="_blank"
+                  ><i class="fa-solid fa-up-right-from-square fa-2xs icon"></i
+                ></a>
+                <br />
+                <s>April 21, 2024</s>
+              </li>
+              <br />
+              <li>
+                <b>Conference Date</b>
+                <br />
+                May 9&ndash;11, 2024
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid footer text-center p-2 text-white">
+        &copy; 2023 &nbsp; | &nbsp; Computing Society of the Philippines
+      </div>
+    </div>
+  </body>
 </html>
